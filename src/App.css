@@ -1,0 +1,46 @@
+nav {
+  width: 100vw;
+  background-color: #415526;
+}
+
+.logo {
+  height: 175px;
+  margin: 10px;
+}
+
+nav div button {
+  height: 40px;
+  margin: 10px;
+  border-radius: 0px;
+  background-color: #415526;
+  color: white;
+  border: solid 0px #415526;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+
+nav div button:hover, nav button:active {
+    outline: none;
+    background-color: #738161;
+    border: solid 0px #415526;
+    border-bottom: 2px solid white;
+}
+
+.content-div {
+  width: 66%;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-align {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-align {
+  display: flex;
+  justify-content: flex-end;
+}
