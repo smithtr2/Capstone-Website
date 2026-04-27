@@ -26,6 +26,19 @@ nav div button:hover, nav button:active {
     border-bottom: 2px solid white;
 }
 
+p {
+  font-size: 25px;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+li {
+  padding: 10px;
+}
+
 .content-div {
   width: 66%;
   margin-left: 25px;
@@ -51,6 +64,7 @@ nav div button:hover, nav button:active {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-bottom: 50px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
